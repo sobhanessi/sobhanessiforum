@@ -1,0 +1,64 @@
+/* 1.padding
+    2. margin
+    
+    4. */
+
+.topnav {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    /* box-shadow: 0 5px 5px -5px; */
+    z-index: 9;
+    background-color: #fff;
+    min-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:950px) {
+    /* .topnav {
+        min-height: 5%;
+    } */
+    .topnav a {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        position: absolute;
+        display: block;
+        float: right;
+        top: 0;
+        right: 0;
+    }
+    .topnav.responsive {
+        position: sticky;
+        top: 0;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:950px) {
+    .topnav a {
+        display: inline-block;
+        margin: 2% 1% 2% 1%;
+    }
+    .topnav .icon {
+        display: none;
+    }
+}
