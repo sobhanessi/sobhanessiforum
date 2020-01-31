@@ -1,9 +1,9 @@
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 800px) {
     .rightSecondTrend {
         display: inline-block;
         float: right;
-        width: 64.5%;
-        margin-left: 0.5%;
+        width: 64%;
+        margin-left: 1%;
     }
     .rightSecondTrend section,
     .leftSecondTrend section {
@@ -14,8 +14,8 @@
     .leftSecondTrend {
         display: inline-block;
         float: left;
-        width: 34.5%;
-        margin-right: 0.5%;
+        width: 34%;
+        margin-right: 1%;
     }
     #leftSecondTrendArticle,
     #rightSecondTrendArticle {
@@ -26,7 +26,7 @@
     }
     #leftSecondTrendArticle iframe {
         width: 100%;
-        height: auto;
+        max-height: 100%;
     }
     #rightSecondTrendArticle img {
         display: inline-block;

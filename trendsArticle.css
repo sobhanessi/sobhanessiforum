@@ -1,4 +1,4 @@
-@media screen and (min-width:950px) {
+@media screen and (min-width:800px) {
     .mainDiv {
         width: 80%;
         margin: 0 10% 0 10%;
@@ -48,18 +48,22 @@
         margin-top: 10px;
     }
     #noteArticle span:before {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 5%;
+        margin-left: 5%;
         left: 100%;
     }
     #noteArticle span:after {
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 5%;
+        margin-left: 5%;
         right: 100%;
+    }
+    #noteArticle h1,
+    #noteArticle p {
+        text-align: center;
     }
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:800px) {
     #pictureArticle img {
         width: 100%;
         height: auto;
