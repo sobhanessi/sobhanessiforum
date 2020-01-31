@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./trendsArticle.css">
     <link rel="stylesheet" href="./secondTrend.css">
     <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/fonts.min.css" />
     <script src="hamburgermenu.js"></script>
     <script src="firstRightTrendImageAndHeading.js"></script>
     <title>Home Page</title>
@@ -40,7 +42,17 @@
     </nav>
 
     <div class="mainDiv">
-        <section class="firstTrend">
+        <section class="firstTrend" dir="rtl">
+
+            <article id="pictureArticle" dir="rtl">
+                <img id="pictureArticleImage" src="http://www.iraniansforum.com/images/stories/thumregion.jpg">
+                <h2 id="pictureArticleHeading">
+                    رژیم ایران و باتلاق منطقه ای
+                </h2>
+                <script>
+                    changeImage();
+                </script>
+            </article>
             <article id="noteArticle" dir="rtl">
                 <h2 style="text-align: center; font-size: 20px;">
                     <span>یادداشت ویژه</span>
@@ -54,27 +66,16 @@
                     آیا حضور نظامی گسترده رژیم در منطقه نشانی از قدرت و پیروزی است یا برعکس، فرار به جلو و فرو رفتن در باتلاق منطقه ای است که در نهایت سهم مهمی در سقوط رژیم خواهد داشت؟
                 </p>
             </article>
-            <article id="pictureArticle" dir="rtl">
-                <img id="pictureArticleImage" src="http://www.iraniansforum.com/images/stories/thumregion.jpg">
-                <h2 id="pictureArticleHeading">
-                    رژیم ایران و باتلاق منطقه ای
-                </h2>
-                <script>
-                    changeImage();
-                </script>
-            </article>
         </section>
         <br><br><br>
-        <div style="height: auto;">
-
-
+        <div id="secondTrend">
             <div class="rightSecondTrend">
                 <section>
                     <article dir="rtl" id="rightSecondTrendArticle">
-                        <img src="http://www.iraniansforum.com/images/stories/repression.jpg">
-                        <h2>
+                        <img src="http://www.iraniansforum.com/images/stories/repression.jpg" width="385" height="255">
+                        <h1>
                             قیام سراسری آبان ماه و دستگاه سرکوب رژیم
-                        </h2>
+                        </h1>
                         <p>
 
                             قیام سراسری آبان 98 نقطه عطفی در مبارزات مردم ایران علیه رژیم حاکم بر کشورمان است. گستردگی این قیام و کشتار بی سابقه مردم توسط سپاه و بسیج، نقاط ضعف دستگاه سرکوب رژیم را به نمایش گذاشت و خامنه ای خواهان حضور بسیج در محلات و الگوبرداری از حضور کمیته های
@@ -83,11 +84,11 @@
                     </article>
                     <article dir="rtl" id="rightSecondTrendArticle">
                         <img src="http://www.iraniansforum.com/images/stories/setadtumnail.jpg">
-                        <h2>
+                        <h1>
 
                             امپراطوری اقتصادی علی خامنه ای
 
-                        </h2>
+                        </h1>
                         <p>
 
                             نگاهی کوتاه به امپراطوری اقتصادی تحت کنترل خامنه ای و ساختار اصلی آن یعنی ستاد اجرايی فرمان امام که با صدها شرکت و زیر مجموعه، نزدیک به 200 میلیارد دلار برآورد میشود و در همه بخش های اقتصاد کشور در داخل و در خارج از کشور فعال است. این امپراوری که عمدتا
@@ -96,10 +97,10 @@
                     </article>
                     <article dir="rtl" id="rightSecondTrendArticle">
                         <img src="http://www.iraniansforum.com/images/stories/logo1100.jpg">
-                        <h2>
+                        <h1>
                             دارو و سلامت برای دیگران، مرگ برای بیماران ایرانی
 
-                        </h2>
+                        </h1>
                         <p>
                             اخیرا، حسن قاضی زاده وزیر بهداشت، در یک گفتگوی تلویزیونی اعتراف کرد که به بهانه کمبود پول، از تآمین دارو برای بیماران غیرقابل علاج خودداری میکند و برایشان نسخه مرگ می پیچد. برای درک بهتر ار عمق جنایت و ضد ایرانی بودن این رژیم، به دهها کلینیک و بیمارستان
                             ساخت رژیم در خاورمیانه و آفریقا و خرج صدها میلیون دلار برای آنها نگاه کنیم
@@ -109,11 +110,11 @@
                     </article>
                     <article dir="rtl" id="rightSecondTrendArticle">
                         <img src="http://www.iraniansforum.com/images/stories/crime1.jpg">
-                        <h2>
+                        <h1>
 
                             قتل عام زندانیان سیاسی 1367
 
-                        </h2>
+                        </h1>
                         <p>
                             قتل عام زندانیان سیاسی در تابستان 67، ادامه جنگ وستیزی بود که خمینی و پیروانش از دهسال قبل از آن، از روز نخست ورود وی به ایران، علیه جامعه سیاسی و مدنی کشورمان شروع کرده بودند. در این سالها، گروههای سیاسی و صنفی تار و مار شدند، حقوق زنان و اقلیت های قومی
                             و مذهبی سلب شدند، دانشگاهها به خاک و خون کشیده شدند و دهها هزار نفر از مخالفان رژیم، زندانی، شکنجه، آواره و بسیاری از آنان اعدام شدند. سرانجام، روند توقف ناپذیر دستگیری، شکنجه و اعدام زندانیان سیاسی در ایران، در مرداد ماه 1367
@@ -123,11 +124,11 @@
                     </article>
                     <article dir="rtl" id="rightSecondTrendArticle">
                         <img src="http://www.iraniansforum.com/images/stories/logo115.jpg">
-                        <h2>
+                        <h1>
 
                             مساجد و مراکز اسلامی رژیم ایران در اروپا
 
-                        </h2>
+                        </h1>
                         <p>
                             رژیم ایران دهها مسجد و مرکز اسلامی در سراسر اروپا را تحت کنترل دارد و تعداد آنها بطور مستمر افزایش می یابد. رژیم با استفاده از این شبکه، ایدئولوژی بنیادگرایانه اش را به اروپا صادر میکند، نفوذ خود در میان مسلمانان این کشور ها بویژه جمعیت های مهاجر را افزایش
                             میدهد و از میان آنها برای دستگاه تروریستی خود یارگیری میکند
@@ -161,8 +162,18 @@
                     </article>
                 </section>
             </div>
-        </div>
 
+            <div style="width: 100%;">
+                <p>
+                    hello world
+                </p>
+            </div>
+            <div style="width: 100%;">
+                <p>
+                    hello world
+                </p>
+            </div>
+        </div>
     </div>
 
     <br><br><br>

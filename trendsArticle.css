@@ -1,8 +1,21 @@
+body {
+    font-family: "BMitra";
+}
+
+h1,
+h2 {
+    font-size: 2.0em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
 @media screen and (min-width:800px) {
     .mainDiv {
         width: 80%;
         margin: 0 10% 0 10%;
-        height: auto;
+        height: 100%;
     }
     .firstTrend {
         display: flex;
