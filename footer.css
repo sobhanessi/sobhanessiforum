@@ -1,8 +1,10 @@
 #footer {
+    display: block;
     position: static;
     bottom: 0;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100%;
+    background-color: white;
 }

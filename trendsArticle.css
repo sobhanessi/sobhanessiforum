@@ -2,6 +2,7 @@
     .mainDiv {
         width: 80%;
         margin: 0 10% 0 10%;
+        height: auto;
     }
     .firstTrend {
         display: flex;
@@ -10,11 +11,12 @@
     #pictureArticle {
         display: inline-block;
         float: right;
-        width: 64.5%;
-        margin-left: 0.5%;
+        width: 64%;
+        margin-left: 1%;
+        height: auto;
     }
     #pictureArticle img {
-        height: auto;
+        max-height: 524px;
         width: 100%;
     }
     #pictureArticle:hover {
@@ -22,10 +24,10 @@
     }
     #noteArticle {
         display: inline-block;
-        width: 34.5%;
+        width: 34%;
         height: auto;
         float: left;
-        margin-right: 0.5%;
+        margin-right: 1%;
     }
     #noteArticle p {
         width: 100%;
@@ -60,6 +62,7 @@
     #noteArticle h1,
     #noteArticle p {
         text-align: center;
+        padding: 10px 15px 10px 15px;
     }
 }
 
