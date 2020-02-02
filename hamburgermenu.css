@@ -1,87 +1,121 @@
-/* 1.padding
+    /* 1.padding
     2. margin
     
     4. */
-
-
-/* body {
+    /* body {
     background-color: #f0f0f0;
 } */
-
-.topnav {
-    position: sticky;
-    top: 0;
-    text-align: center;
-    /* box-shadow: 0 5px 5px -5px; */
-    z-index: 9;
-    /* background-color: #666; */
-    /* background-color: #fff; */
-    /* background-color: #0085ba; */
-    background-color: rgb(94, 182, 240);
-    min-width: 100%;
-    /* border-top: 20px solid yellow;
-    border-bottom: 20px solid yellow; */
-}
-
-.topnav i {
-    /* color: #ffda1a; */
-    /* color: #000; */
-    color: #fff;
-    margin-left: 5px;
-}
-
-.topnav a {
-    text-decoration: none;
-    /* color: #0085ba; */
-    /* color: #000; */
-    /* color: #0F94E9; */
-    color: #fff;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-@media screen and (max-width:800px) {
-    /* .topnav {
-        min-height: 5%;
-    } */
-    .topnav a {
-        display: inline-block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .topnav a:not(:first-child) {
-        display: none;
-    }
-    .topnav a.icon {
-        position: absolute;
-        display: block;
-        float: right;
-        top: 0;
-        right: 0;
-    }
-    .topnav.responsive {
+    
+    .topnav {
         position: sticky;
         top: 0;
+        text-align: center;
+        /* box-shadow: 0 5px 5px -5px; */
+        z-index: 9;
+        /* background-color: #666; */
+        background-color: #fff;
+        /* background-color: #0085ba; */
+        /* background-color: rgb(94, 182, 240); */
+        min-width: 100%;
+        /* border-top: 20px solid yellow;
+        border-bottom: 20px solid yellow; */
+        border-bottom: 1px solid gray;
     }
-    .topnav.responsive a.icon {
-        position: absolute;
-        top: 0;
-        right: 0;
+    
+    #navbarSpan1 {
+        height: 15px;
+        background-color: white;
+        border-top: 15px solid green;
+        border-bottom: 15px solid red;
     }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
+    
+    .topnav i {
+        /* color: #ffda1a; */
+        /* color: #000; */
+        /* color: #fff; */
+        color: #0F94E9;
+        margin-left: 5px;
     }
-}
-
-@media screen and (min-width:800px) {
+    
     .topnav a {
-        display: inline-block;
-        margin: 2% 1% 2% 1%;
+        text-decoration: none;
+        /* color: #0085ba; */
+        color: #000;
+        /* color: #0F94E9; */
+        /* color: #fff; */
+        font-size: 1.5em;
+        font-weight: bold;
     }
-    .topnav .icon {
-        display: none;
+    
+    @media screen and (max-width:800px) {
+        /* .topnav {
+        min-height: 5%;
+    } */
+        .topnav a {
+            display: inline-block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #navbarSpan1 {
+            width: 100%;
+            display: inline-block;
+        }
+        .topnav a:not(:first-child) {
+            display: none;
+        }
+        .topnav a.icon {
+            position: absolute;
+            display: block;
+            float: right;
+            top: 0;
+            right: 0;
+        }
+        .topnav.responsive {
+            position: sticky;
+            top: 0;
+        }
+        .topnav.responsive a.icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .topnav.responsive #navbarSpan1 {
+            display: block;
+            margin: 2% 43.5% 1% 43.5%;
+            width: 13%;
+        }
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
     }
-}
+    
+    @media screen and (min-width:800px) {
+        /* .topnav {
+            display: flex;
+            justify-content: center;
+        } */
+        .topnav a {
+            display: inline-block;
+            margin: 2% 1% 2% 1%;
+        }
+        .topnav .icon {
+            display: none;
+        }
+        /* #logo {
+            width: 11%;
+            display: inline-block;
+        } */
+        #navbarSpan1 {
+            width: 100%;
+            display: block;
+            /* float: right; */
+        }
+        /* #navbarSpan2 {
+            width: 50%;
+            display: inline-block;
+            float: left;
+        } */
+    }
