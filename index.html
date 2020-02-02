@@ -1,61 +1,71 @@
 <!DOCTYPE html>
-<html lang="fa" dir="ltr">
+<html lang="fa" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./general.css">
     <link rel="stylesheet" href="./hamburgermenu.css">
-    <link rel="stylesheet" href="./trendsArticle.css">
-    <link rel="stylesheet" href="./secondTrend.css">
+    <link rel="stylesheet" href="./firstTrend.css">
+    <link rel="stylesheet" href="./secondTrend2.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/fonts.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="hamburgermenu.js"></script>
     <script src="firstRightTrendImageAndHeading.js"></script>
     <title>Home Page</title>
 </head>
 
 <body>
-    <nav id="myTopnav" class="topnav" dir="rtl">
+    <nav id="myTopnav" class="topnav">
 
-        <a href="home">خانه</a>
+        <a href="home"><i class="fa fa-home"></i>خانه</a>
 
-        <a href="documents">اسناد</a>
+        <a href="articles"><i class="fa fa-newspaper-o"></i>گزارش</a>
 
-        <a href="videos">تصویری</a>
+        <a href="videos"><i class="fa fa-youtube-play"></i>تصویری</a>
 
-        <a href="articles">گزارش</a>
+        <a href="iranlobby"><i class="fa fa-book"></i>لابی طرفدار رژیم</a>
 
-        <a href="contactus">ارتباط با ما</a>
+        <a href="iransnuclearproject"><i class="fa fa-book"></i>برنامه هسته ای رژیم</a>
 
-        <a href="donate">کمک مالی</a>
+        <a href="contactus"><i class="fa fa-paper-plane"></i>ارتباط با ما</a>
 
-        <a href="javascript:void(0);" class="icon">click me</a>
+        <a href="donate"><i class="fa fa-cc-paypal"></i>کمک مالی</a>
+
+        <a href="javascript:void(0);" class="icon"><i class="fa fa-bars"></i></a>
 
         <script>
             hamburger();
         </script>
 
-        <hr>
+        <!-- <hr> -->
 
     </nav>
 
     <div class="mainDiv">
-        <section class="firstTrend" dir="rtl">
+        <section class="firstTrend">
 
-            <article id="pictureArticle" dir="rtl">
+            <article id="pictureArticle">
+                <h1>
+                    آخرین ها
+                </h1>
                 <img id="pictureArticleImage" src="http://www.iraniansforum.com/images/stories/thumregion.jpg">
-                <h2 id="pictureArticleHeading">
-                    رژیم ایران و باتلاق منطقه ای
+                <h2>
+                    <a id="pictureArticleHeading">
+                        رژیم ایران و باتلاق منطقه ای
+                    </a id="pictureArticleHeading">
+
                 </h2>
                 <script>
                     changeImage();
                 </script>
             </article>
-            <article id="noteArticle" dir="rtl">
-                <h2 style="text-align: center; font-size: 20px;">
-                    <span>یادداشت ویژه</span>
+            <article id="noteArticle">
+                <h2 style="text-align: center;">
+                    <span>یادداشت خبری</span>
                 </h2>
                 <h1>
                     رژیم ایران و باتلاق منطقه ای
@@ -68,112 +78,115 @@
             </article>
         </section>
         <br><br><br>
-        <div id="secondTrend">
-            <div class="rightSecondTrend">
-                <section>
-                    <article dir="rtl" id="rightSecondTrendArticle">
-                        <img src="http://www.iraniansforum.com/images/stories/repression.jpg" width="385" height="255">
-                        <h1>
-                            قیام سراسری آبان ماه و دستگاه سرکوب رژیم
-                        </h1>
-                        <p>
 
-                            قیام سراسری آبان 98 نقطه عطفی در مبارزات مردم ایران علیه رژیم حاکم بر کشورمان است. گستردگی این قیام و کشتار بی سابقه مردم توسط سپاه و بسیج، نقاط ضعف دستگاه سرکوب رژیم را به نمایش گذاشت و خامنه ای خواهان حضور بسیج در محلات و الگوبرداری از حضور کمیته های
-                            انقلاب در دهه 60 شد. در این گزارش، تاریخچه و سیر تحول 40 ساله ماشین سرکوب و چشم انداز پیروزی نهایی مردم برای شکست کامل این دستگاه را بررسی میکنیم
-                        </p>
-                    </article>
-                    <article dir="rtl" id="rightSecondTrendArticle">
-                        <img src="http://www.iraniansforum.com/images/stories/setadtumnail.jpg">
-                        <h1>
+        <hr>
+        <div class="rightSecondTrend">
+            <h2>گزارش</h2>
+            <section>
+                <article id="rightSecondTrendArticle">
+                    <img src="http://www.iraniansforum.com/images/stories/repression.jpg" width="385" height="255">
+                    <h1>
+                        <a>
+                           قیام سراسری آبان ماه و دستگاه سرکوب رژیم
+                        </a>
 
-                            امپراطوری اقتصادی علی خامنه ای
+                    </h1>
+                    <p>
 
-                        </h1>
-                        <p>
-
-                            نگاهی کوتاه به امپراطوری اقتصادی تحت کنترل خامنه ای و ساختار اصلی آن یعنی ستاد اجرايی فرمان امام که با صدها شرکت و زیر مجموعه، نزدیک به 200 میلیارد دلار برآورد میشود و در همه بخش های اقتصاد کشور در داخل و در خارج از کشور فعال است. این امپراوری که عمدتا
-                            روی مصادره و سرقت اموال مردم بنا شده، یکی از مهمترین مافیاهای اقتصادی کشور است و مانند یک دولت مستقل فعالیت میکند
-                        </p>
-                    </article>
-                    <article dir="rtl" id="rightSecondTrendArticle">
-                        <img src="http://www.iraniansforum.com/images/stories/logo1100.jpg">
-                        <h1>
-                            دارو و سلامت برای دیگران، مرگ برای بیماران ایرانی
-
-                        </h1>
-                        <p>
-                            اخیرا، حسن قاضی زاده وزیر بهداشت، در یک گفتگوی تلویزیونی اعتراف کرد که به بهانه کمبود پول، از تآمین دارو برای بیماران غیرقابل علاج خودداری میکند و برایشان نسخه مرگ می پیچد. برای درک بهتر ار عمق جنایت و ضد ایرانی بودن این رژیم، به دهها کلینیک و بیمارستان
-                            ساخت رژیم در خاورمیانه و آفریقا و خرج صدها میلیون دلار برای آنها نگاه کنیم
+                        قیام سراسری آبان 98 نقطه عطفی در مبارزات مردم ایران علیه رژیم حاکم بر کشورمان است. گستردگی این قیام و کشتار بی سابقه مردم توسط سپاه و بسیج، نقاط ضعف دستگاه سرکوب رژیم را به نمایش گذاشت و خامنه ای خواهان حضور بسیج در محلات و الگوبرداری از حضور کمیته های
+                        انقلاب در دهه 60 شد. در این گزارش، تاریخچه و سیر تحول 40 ساله ماشین سرکوب و چشم انداز پیروزی نهایی مردم برای شکست کامل این دستگاه را بررسی میکنیم
+                    </p>
+            </article>
+            <hr style="color:black">
+            <article id="rightSecondTrendArticle">
+                <img src="http://www.iraniansforum.com/images/stories/setadtumnail.jpg" width="385" height="255">
+                <h1>
+                    <a>
+                        امپراطوری اقتصادی علی خامنه ای
+                    </a>
 
 
-                        </p>
-                    </article>
-                    <article dir="rtl" id="rightSecondTrendArticle">
-                        <img src="http://www.iraniansforum.com/images/stories/crime1.jpg">
-                        <h1>
-
-                            قتل عام زندانیان سیاسی 1367
-
-                        </h1>
-                        <p>
-                            قتل عام زندانیان سیاسی در تابستان 67، ادامه جنگ وستیزی بود که خمینی و پیروانش از دهسال قبل از آن، از روز نخست ورود وی به ایران، علیه جامعه سیاسی و مدنی کشورمان شروع کرده بودند. در این سالها، گروههای سیاسی و صنفی تار و مار شدند، حقوق زنان و اقلیت های قومی
-                            و مذهبی سلب شدند، دانشگاهها به خاک و خون کشیده شدند و دهها هزار نفر از مخالفان رژیم، زندانی، شکنجه، آواره و بسیاری از آنان اعدام شدند. سرانجام، روند توقف ناپذیر دستگیری، شکنجه و اعدام زندانیان سیاسی در ایران، در مرداد ماه 1367
-                            به نقطه عطف خود رسید و به دستور خمینی، هزاران تن از زندانیان اعدام شدند.
-
-                        </p>
-                    </article>
-                    <article dir="rtl" id="rightSecondTrendArticle">
-                        <img src="http://www.iraniansforum.com/images/stories/logo115.jpg">
-                        <h1>
-
-                            مساجد و مراکز اسلامی رژیم ایران در اروپا
-
-                        </h1>
-                        <p>
-                            رژیم ایران دهها مسجد و مرکز اسلامی در سراسر اروپا را تحت کنترل دارد و تعداد آنها بطور مستمر افزایش می یابد. رژیم با استفاده از این شبکه، ایدئولوژی بنیادگرایانه اش را به اروپا صادر میکند، نفوذ خود در میان مسلمانان این کشور ها بویژه جمعیت های مهاجر را افزایش
-                            میدهد و از میان آنها برای دستگاه تروریستی خود یارگیری میکند
-
-                        </p>
-                    </article>
-                </section>
-            </div>
-            <div class="leftSecondTrend">
-                <section>
-                    <article dir="rtl" id="leftSecondTrendArticle">
-                        <iframe src="https://www.youtube.com/embed/VMvmh49Fr5A" height="325" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h2>پولشوئی، رشوه و مافیای اقتصادی رژیم
-                        </h2>
-                    </article>
-                    <article dir="rtl" id="leftSecondTrendArticle">
-                        <iframe src="https://www.youtube.com/embed/hEMSnguJylo" height="325" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h2>تابستان پرمخاطره برای رژیم ایران</h2>
-                    </article>
-                    <article dir="rtl" id="leftSecondTrendArticle">
-                        <iframe src="https://www.youtube.com/embed/nzSTv4BzlwA" height="325" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h2>بازسازی عراق با پول مردم ایران</h2>
-                    </article>
-                    <article dir="rtl" id="leftSecondTrendArticle">
-                        <iframe src="https://www.youtube.com/embed/nfu9zyyS9dE" height="325" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h2>هواپیمای اسقاطی، فرودگاه بدون رادار و بی ارزشی جان انسان</h2>
-                    </article>
-                    <article dir="rtl" id="leftSecondTrendArticle">
-                        <iframe src="https://www.youtube.com/embed/5KcaDq0-9gg" height="325" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h2>سخنرانی روحانی و سلیمانی: نمایش شکاف و بن بست در نظام</h2>
-                    </article>
-                </section>
-            </div>
-
-            <div style="width: 100%;">
+                </h1>
                 <p>
-                    hello world
+
+                    نگاهی کوتاه به امپراطوری اقتصادی تحت کنترل خامنه ای و ساختار اصلی آن یعنی ستاد اجرايی فرمان امام که با صدها شرکت و زیر مجموعه، نزدیک به 200 میلیارد دلار برآورد میشود و در همه بخش های اقتصاد کشور در داخل و در خارج از کشور فعال است. این امپراوری که عمدتا
+                    روی مصادره و سرقت اموال مردم بنا شده، یکی از مهمترین مافیاهای اقتصادی کشور است و مانند یک دولت مستقل فعالیت میکند
                 </p>
-            </div>
-            <div style="width: 100%;">
+            </article>
+            <hr>
+            <article id="rightSecondTrendArticle">
+                <img src="http://www.iraniansforum.com/images/stories/logo1100.jpg" width="385" height="255">
+                <h1>
+                    <a>
+                         دارو و سلامت برای دیگران، مرگ برای بیماران ایرانی
+                    </a>
+
+
+                </h1>
                 <p>
-                    hello world
+                    اخیرا، حسن قاضی زاده وزیر بهداشت، در یک گفتگوی تلویزیونی اعتراف کرد که به بهانه کمبود پول، از تآمین دارو برای بیماران غیرقابل علاج خودداری میکند و برایشان نسخه مرگ می پیچد. برای درک بهتر ار عمق جنایت و ضد ایرانی بودن این رژیم، به دهها کلینیک و بیمارستان
+                    ساخت رژیم در خاورمیانه و آفریقا و خرج صدها میلیون دلار برای آنها نگاه کنیم
+
+
                 </p>
-            </div>
-        </div>
+            </article>
+            <hr>
+            <article id="rightSecondTrendArticle">
+                <img src="http://www.iraniansforum.com/images/stories/crime1.jpg" width="385" height="255">
+                <h1>
+                    <a>
+                        قتل عام زندانیان سیاسی 1367
+                    </a>
+                </h1>
+                <p>
+                    قتل عام زندانیان سیاسی در تابستان 67، ادامه جنگ وستیزی بود که خمینی و پیروانش از دهسال قبل از آن، از روز نخست ورود وی به ایران، علیه جامعه سیاسی و مدنی کشورمان شروع کرده بودند. در این سالها، گروههای سیاسی و صنفی تار و مار شدند، حقوق زنان و اقلیت های قومی
+                    و مذهبی سلب شدند، دانشگاهها به خاک و خون کشیده شدند و دهها هزار نفر از مخالفان رژیم، زندانی، شکنجه، آواره و بسیاری از آنان اعدام شدند. سرانجام، روند توقف ناپذیر دستگیری، شکنجه و اعدام زندانیان سیاسی در ایران، در مرداد ماه 1367 به نقطه
+                    عطف خود رسید و به دستور خمینی، هزاران تن از زندانیان اعدام شدند.
+
+                </p>
+            </article>
+            <hr>
+            <article id="rightSecondTrendArticle">
+                <img src="http://www.iraniansforum.com/images/stories/logo115.jpg" width="385" height="255">
+                <h1>
+                    <a>
+                    مساجد و مراکز اسلامی رژیم ایران در اروپا
+                    </a>
+                </h1>
+                <p>
+                    رژیم ایران دهها مسجد و مرکز اسلامی در سراسر اروپا را تحت کنترل دارد و تعداد آنها بطور مستمر افزایش می یابد. رژیم با استفاده از این شبکه، ایدئولوژی بنیادگرایانه اش را به اروپا صادر میکند، نفوذ خود در میان مسلمانان این کشور ها بویژه جمعیت های مهاجر را افزایش
+                    میدهد و از میان آنها برای دستگاه تروریستی خود یارگیری میکند
+
+                </p>
+            </article>
+            <hr>
+        </section>
+    </div>
+    <aside class="leftSecondTrend">
+        <section>
+            <!-- <img src="firefox.jpeg">
+                <img src="firefox.jpeg">
+                <img src="firefox.jpeg">
+                <img src="firefox.jpeg">
+                <img src="firefox.jpeg"> -->
+
+            <article id="leftSecondTrendArticle">
+                <h2>
+                    لابی طرفدار رژیم
+                </h2>
+                <img src="http://iraniansforum.com/lobby/images/AP0709240112948a.jpg" height="255">
+            </article>
+
+            <article id="leftSecondTrendArticle">
+                <h2>
+                    برنامه هسته ای رژیم
+                </h2>
+                <img src="http://iraniansforum.com/iaf/wp-content/uploads/2013/12/Economic.jpg" height="255">
+            </article>
+
+        </section>
+
+    </aside>
     </div>
 
     <br><br><br>

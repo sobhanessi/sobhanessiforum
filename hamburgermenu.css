@@ -3,18 +3,41 @@
     
     4. */
 
+
+/* body {
+    background-color: #f0f0f0;
+} */
+
 .topnav {
     position: sticky;
     top: 0;
     text-align: center;
     /* box-shadow: 0 5px 5px -5px; */
     z-index: 9;
-    background-color: #fff;
+    /* background-color: #666; */
+    /* background-color: #fff; */
+    /* background-color: #0085ba; */
+    background-color: rgb(94, 182, 240);
     min-width: 100%;
+    /* border-top: 20px solid yellow;
+    border-bottom: 20px solid yellow; */
 }
 
-a {
+.topnav i {
+    /* color: #ffda1a; */
+    /* color: #000; */
+    color: #fff;
+    margin-left: 5px;
+}
+
+.topnav a {
     text-decoration: none;
+    /* color: #0085ba; */
+    /* color: #000; */
+    /* color: #0F94E9; */
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 @media screen and (max-width:800px) {

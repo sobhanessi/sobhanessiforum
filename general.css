@@ -1,0 +1,17 @@
+body {
+    font-family: "BMitra";
+}
+
+h1,
+h2 {
+    font-size: 2.0em;
+    color: #333;
+}
+
+p {
+    font-size: 1.35em;
+}
+
+a:hover {
+    color: #337ab7;
+}
